@@ -1,0 +1,24 @@
+// 變數（範例）
+$brand: #10b981; // emerald-500
+
+// 全站樣式補充（Tailwind 之外你自訂的）
+body {
+  scroll-behavior: smooth;
+}
+
+// 自訂按鈕（示範 SCSS 巢狀與變數）
+.btn-brand {
+  background: $brand;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  display: inline-block;
+  text-decoration: none;
+  &:hover { filter: brightness(0.95); }
+}
+
+// 區塊陰影 hover 效果（服務卡片）
+.service-card {
+  transition: transform .2s ease, box-shadow .2s ease;
+  &:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,.08); }
+}

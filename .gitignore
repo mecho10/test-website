@@ -1,0 +1,35 @@
+# 系統文件
+.DS_Store
+Thumbs.db
+
+# 編輯器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日誌文件
+*.log
+npm-debug.log*
+
+# 臨時文件
+*.tmp
+*.temp
+
+# PHP 相關
+composer.phar
+/vendor/
+
+# Node.js 相關（如果未來需要）
+node_modules/
+package-lock.json
+yarn.lock
+
+# 環境變數文件
+.env
+.env.local
+.env.production
+
+# 備份文件
+*.bak
+*.backup
